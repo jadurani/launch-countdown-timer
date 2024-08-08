@@ -5,6 +5,7 @@
 
   <main>
     <!-- timer here -->
+    <Digit label="days" value="0" />
 
   </main>
 
@@ -12,6 +13,11 @@
     <!-- social media here -->
   </footer>
 </template>
+
+<script setup>
+import Digit from '@/components/Digit.vue';
+
+</script>
 
 <style scoped>
 
