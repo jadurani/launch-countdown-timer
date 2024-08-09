@@ -3,9 +3,12 @@
     We’re launching soon
   </header>
 
-  <main>
+  <main class="countdown">
     <!-- timer here -->
-    <Digit label="days" value="0" />
+    <Digit label="days" value="8" />
+    <Digit label="hours" value="23" />
+    <Digit label="minutes" value="55" />
+    <Digit label="seconds" value="41" />
 
   </main>
 
@@ -20,6 +23,13 @@ import Digit from '@/components/Digit.vue';
 </script>
 
 <style scoped>
+.countdown {
+  display: flex;
+  flex-direction: row;
+  gap: 32px;
+  justify-content: center;
+  align-items: center;
+}
 
 header {
   text-transform: uppercase;
